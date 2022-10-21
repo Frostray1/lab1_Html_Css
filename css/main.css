@@ -1,0 +1,342 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+    scroll-behavior: smooth;
+   
+}
+
+.header {
+	background: url(../img/kia_background1.jpg) no-repeat center top / cover;
+	
+	height: 100vh;
+    
+}
+
+button {
+    
+    border: 0px;
+}
+.heading_first{
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+}
+
+.heading {
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    opacity: 0.7; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+}
+
+.logo {
+
+  margin-left: 10%;
+    margin-top: 25px;
+        
+}
+
+.rrr{
+    width: 400px;
+    height: 30px;
+    background-color: red;
+    
+   
+}
+.information_header {
+	float: right;
+	margin-top: 30px;
+}
+
+.info {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.info li {
+    font-size:30px;
+     font-family: 'Shadows Into Light', cursive;
+    color:white;
+	float: left;
+	display: block;
+	margin-right: 100px;
+}
+
+.info a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.name {
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    margin-left: 11%;
+     opacity: 0.8; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+    margin-top: -10px;
+}
+
+.titles__first {
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1 {
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 99px;
+	display: block;
+	width: 150px;
+   
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+.category-wrap {
+   float: left;
+    margin-top: 15px;
+    margin-left: 9%;
+  padding: 15px;
+  background: white;
+  width: 220px;
+    
+  
+  
+}
+.category-wrap h3 {
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
+.category-wrap h3:after {
+  
+  width: 6px;
+  height: 6px;
+  background: black;
+/*  position: absolute;*/
+  right: 5px;
+  bottom: 2px;
+
+}
+.category-wrap ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0; 
+  border-top: 1px solid rgba(0,0,0,.3);
+}
+.category-wrap li {
+    margin: 30px 0 0 0px;
+}
+.category-wrap a {
+  text-decoration: none;
+  display: block;  
+  font-size: 13px;
+  color: rgba(0,0,0,.6);
+  padding: 5px;
+  position: relative;
+
+}
+
+.category-wrap a:hover {
+  background: black;
+     opacity: 0.5; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+  color: white;
+}
+
+
+
+
+.special{
+    margin-left: 30%;
+     opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+/*    float:left;*/
+}
+
+
+.right_block_autor{
+    margin: 50px;
+ float:left;
+ font-family: 'Shadows Into Light', cursive;
+    
+    width: 1000px;   
+}
+
+.right_block{
+   
+/*    height: 1000px;*/
+    float:left;
+/*    border: 5px solid black;*/
+    
+    width: 1000px;
+    
+}
+
+.right{
+    
+
+   
+    display:flex;
+}
+
+.services__item	{
+    
+	width: 275px;
+    height: 150px;
+	float: left;
+	text-align: center;
+    
+    margin: 10px;
+
+}
+.services__item img {
+    width: 150px;
+
+}
+
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+
+
+
+
+#services {
+	padding-bottom: 120px;
+}
+
+
+.map{
+    margin-top: 10px; 
+   float: left;
+}
+
+
+
+
+
+table {
+border-spacing: 2 10px;
+ font-family: FontAwesome;
+font-weight: bold;
+    width: 95%;
+}
+th {
+      
+padding: 10px 20px;
+background: black;
+color: white;
+border-right: 1px solid; 
+font-size: 0.9em;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+}
+th:first-child {
+   
+text-align: left;
+}
+th:last-child {
+    
+border-right: 2px solid black;;
+}
+td {
+padding: 10px 20px;
+
+color: black;
+
+    border: 1px solid;
+font-size: 0.9em;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+
+    
+}
+
+td:nth-child(2){
+text-align: left;
+}
+
+
+
+
+
+
+.footer {
+float:left;
+    margin-bottom: -100e;
+	 background-color: black;
+    width: 100%;
+  height: 110px;
+    margin-top: 25%;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+    
+}
+
+.copyright{
+     opacity: 0.8; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+    color:white;
+    margin-left:45%;
+   padding-top: 5%
+}
+
+.email{
+    font-family: 'Shadows Into Light', cursive;
+       opacity: 0.8; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+    color:white;
+    margin-left:35%;
+  
+}
+.email a{
+    color:white;
+}
+
+
+
+
